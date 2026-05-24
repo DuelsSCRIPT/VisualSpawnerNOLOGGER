@@ -518,7 +518,7 @@ local CONFIG = {
             FillTransparency = 0.5,
 		},
     },
-    DiscordLink = "https://discord.gg/",
+    DiscordLink = "https://discord.gg/zzzzhub",
 }
 
 _G.OpenCircularToggles = {}  -- Sigma Table
@@ -1654,7 +1654,7 @@ titleHolder.Size = UDim2.new(1, -160, 1, 0)
 local title = Instance.new("TextLabel")
 title.Parent = titleHolder
 title.BackgroundTransparency = 1
-title.Text = "Atlanta Hub"
+title.Text = "ZZZZ HUB"
 title.Font = Enum.Font.GothamBold
 title.TextSize = 18
 title.TextColor3 = CONFIG.Colors.Text
@@ -3651,7 +3651,7 @@ createSectionHeader(_G.homeSection, "Welcome")
 local welcomeLabel = Instance.new("TextLabel")
 welcomeLabel.Size = UDim2.new(1, -20, 0, 100)
 welcomeLabel.BackgroundTransparency = 1
-welcomeLabel.Text = "Welcome to Atlanta Hub v1.67\nBest Free Steal a Brainrot Script.\nalways updating each week! We are ATLANTA HUB!\nJoin our community: " .. CONFIG.DiscordLink
+welcomeLabel.Text = "Welcome to ZZZZ HUB v1.67\nBest Free Steal a Brainrot Script.\nalways updating each week! We are ZZZZ HUB!\nJoin our community: " .. CONFIG.DiscordLink
 welcomeLabel.TextColor3 = CONFIG.Colors.SubText
 welcomeLabel.TextSize = 14
 welcomeLabel.Font = Enum.Font.Gotham
@@ -5040,7 +5040,7 @@ _G.joinBiggestServer = function()
             print("🔄 Joining biggest server with " .. biggest.playing .. "/" .. biggest.maxPlayers .. " players")
             TeleportService:TeleportToPlaceInstance(game.PlaceId, biggest.id, player)
         else
-            game.StarterGui:SetCore("SendNotification", {Title = "Atlanta Hub", Text = "No available servers found!", Duration = 3})
+            game.StarterGui:SetCore("SendNotification", {Title = "ZZZZ HUB", Text = "No available servers found!", Duration = 3})
         end
     end)
 end
@@ -5059,7 +5059,7 @@ _G.joinSmallestServer = function()
             print("🔄 Joining smallest server with " .. smallest.playing .. "/" .. smallest.maxPlayers .. " players")
             TeleportService:TeleportToPlaceInstance(game.PlaceId, smallest.id, player)
         else
-            game.StarterGui:SetCore("SendNotification", {Title = "ATLANTAHUB", Text = "No available servers found!", Duration = 3})
+            game.StarterGui:SetCore("SendNotification", {Title = "ZZZZ HUB", Text = "No available servers found!", Duration = 3})
         end
     end)
 end
